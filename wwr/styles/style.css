@@ -41,7 +41,7 @@ nav a:hover{
    font-size: 18px;
    padding: 35px;
    margin-top: 50px;
-   border-radius: 5px;
+   border: 5px solid black;
 }
 .book:hover, join:hover{
    background-color: bisque;
@@ -94,14 +94,16 @@ footer a:hover{
    color:  black;
    text-decoration: underline;
 }
-#card-img h2{
+.card-img {
+   border: 10px solid blueviolet;
    max-height: 600px;
    max-width: 600px;
    width: fit-content;
    margin: 200px 0;
 }
-#background{
-   margin-left: 50%;
+.mountains {
+   display:block;
+   margin: 0 auto;
 }
 .icon{
    width: 80px;
