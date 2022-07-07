@@ -101,7 +101,7 @@ nav a:hover{
    text-align: center;
    align-self: center;
 }
-main{
+.home-grid{
    display: grid;
    grid-template-columns: repeat(10, 1fr);
 }
@@ -279,6 +279,33 @@ form {
  }
                    
 /* put second page stuff here*/
+.subpage-grid{
+   display: grid;
+}
+.river-image{
+   width: 100%;
+}
+.head-river p{
+   width: 80%;
+   margin: 0 auto;
+   color: gray;
+   background-color: aquamarine;
+   margin-top: -100px;
+   position: relative;
+   /* padding later*/
+}
+.side-river{
+   display: grid ;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 25%;
+}
+.side-image{
+   grid-column: 1/2;
+}
+.side-river p{
+   grid-column: 2/4;
+   margin-left: 25%;
+}
 @media screen and (max-width: 900px) {
    #hero, .home-grid {
        display: block;
